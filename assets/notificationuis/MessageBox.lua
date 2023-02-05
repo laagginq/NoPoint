@@ -104,6 +104,7 @@ function MessageBoxT.Show(option)
     else 
         GUI = Instance.new("ScreenGui", game.CoreGui)
         GUI.Name = "Notifications"
+	GUI.DisplayOrder  = 200
     end
 
     local MessageBox = game:GetObjects("rbxassetid://"..ID)[1]
