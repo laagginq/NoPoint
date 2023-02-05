@@ -144,7 +144,7 @@ function library:new(props)
 		"ScreenGui",
 		{
 			Name = tostring(math.random(0,999999))..tostring(math.random(0,999999)),
-			DisplayOrder = 9999,
+			DisplayOrder = 100,
 			ResetOnSpawn = false,
 			ZIndexBehavior = "Global",
 			Parent = cre
