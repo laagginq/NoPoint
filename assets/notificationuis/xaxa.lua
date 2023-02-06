@@ -112,7 +112,8 @@ local notifications = {}; do
         end
         
         getgenv().notifications_screenGui = createObject("ScreenGui", {
-            ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+            ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
+            DisplayOrder = 200
         }); protectScreenGui(notifications_screenGui);
     
         self.ui.notificationsFrame = createObject("Frame", {
